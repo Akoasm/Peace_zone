@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/address_detail_toolbar"/>
+
+    <TextView
+        android:id="@+id/address_detail_name"
+        android:text="4565"
+        android:layout_marginLeft="20dp"
+        style="@style/address_detail"
+        android:layout_below="@id/address_detail_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/address_detail_phone"
+        android:text="4565"
+        android:layout_alignLeft="@id/address_detail_name"
+        style="@style/address_detail_phone"
+        android:layout_below="@id/address_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/address_detail_phonenumber"
+        android:text="4565"
+        android:textSize="18dp"
+        android:layout_alignLeft="@id/address_detail_name"
+        android:layout_below="@id/address_detail_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="#dcdcdc"
+        android:layout_below="@id/address_detail_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+    <TextView
+        android:id="@+id/address_detail_group"
+        android:text="4565"
+        android:layout_alignLeft="@id/address_detail_name"
+        style="@style/address_detail_phone"
+        android:layout_below="@id/address_detail_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/address_detail_address"
+        android:text="4565"
+        android:textSize="18dp"
+        android:layout_alignLeft="@id/address_detail_name"
+        android:layout_below="@id/address_detail_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="#dcdcdc"
+        android:layout_below="@id/address_detail_address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_below="@id/address_detail_address"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+
+    <RelativeLayout
+        android:id="@+id/sendmessage_relative"
+        android:layout_weight="0.33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sendmessage_img"
+            android:background="@mipmap/address_detail_message"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sendmessage_tv"
+            android:layout_below="@id/sendmessage_img"
+            android:text="@string/sendmessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/callphone_relative"
+        android:layout_weight="0.33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/callphone_img"
+            android:background="@mipmap/address_detail_call"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/callphone_tv"
+            android:layout_below="@id/callphone_img"
+            android:text="@string/callphone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/save_relative"
+        android:layout_weight="0.33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/save_img"
+            android:background="@mipmap/address_detail_save"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/save_tv"
+            android:layout_below="@id/save_img"
+            android:text="@string/savetolocal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+</RelativeLayout>

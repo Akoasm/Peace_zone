@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/setting_details_toolbar">
+
+    <ImageView
+    android:id="@+id/setting_details_return"
+    android:background="@drawable/return_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/setting_details_title"
+            style="@style/changePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/setting_details_submit"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/setting_details_currentPhone"
+        android:text="@string/currentPhone"
+        style="@style/currentPhone"
+        android:layout_below="@id/setting_details_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/setting_details_currentNumber"
+        android:text="44444"
+        android:textColor="#f50404"
+
+        android:layout_toRightOf="@id/setting_details_currentPhone"
+        android:layout_alignBottom="@id/setting_details_currentPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/setting_details_newPhone"
+        android:layout_below="@id/setting_details_currentNumber"
+        android:hint="@string/newPhone"
+        android:layout_alignLeft="@id/setting_details_currentPhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/setting_repeat_newPhone"
+        android:layout_below="@id/setting_details_newPhone"
+        android:hint="@string/againPhone"
+        android:layout_alignLeft="@id/setting_details_currentPhone"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

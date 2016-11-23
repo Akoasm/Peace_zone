@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/warning_text"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:minLines="1"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:background="@drawable/warning_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/warning_map"
+        android:layout_below="@id/warning_text"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.baidu.mapapi.map.MapView>
+</RelativeLayout>

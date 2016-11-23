@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0068B7</color>
+    <color name="colorPrimaryDark">#0068B7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="font_info">#999</color>
+    <color name="error_color">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="font_text">#666</color>
+    <color name="login">#7d7d7d</color>
+    <color name="loginline">#bbbbbb</color>
+    <color name="loginbtn">#0186cf</color>
+    <color name="line">#dcdcdc</color>
+
+</resources>

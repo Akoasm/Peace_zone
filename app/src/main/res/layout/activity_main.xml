@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="@string/app_name"
+            android:textSize="18dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonBar"
+        android:layout_below="@+id/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNews"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:padding="4dp"
+            android:text="一键告警"
+            android:textColor="#242897"
+            android:textSize="10dp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/dividerVertical"/>
+
+        <Button
+            android:id="@+id/btnLocal"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:padding="4dp"
+            android:text="通讯录"
+            android:textColor="#242897"
+            android:textSize="10dp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/dividerVertical"/>
+
+        <Button
+            android:id="@+id/btnLikes"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:padding="4dp"
+            android:text="雪亮工程"
+            android:textColor="#242897"
+            android:textSize="10dp"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/dividerVertical"/>
+
+        <Button
+            android:id="@+id/btnsetting"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:padding="4dp"
+            android:text="设置"
+            android:textColor="#242897"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

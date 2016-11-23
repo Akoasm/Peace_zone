@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">平安联防</string>
+    <string name="home_first">一键告警</string>
+    <string name="home_second">通讯录</string>
+    <string name="home_third">雪亮工程</string>
+    <string name="home_forth">设置</string>
+    <string name="sendmessage">发送短信</string>
+    <string name="callphone">拨打电话</string>
+    <string name="savetolocal">保存到本机</string>
+    <string name="changePhone">修改手机号码</string>
+    <string name="currentPhone">当前手机号码：</string>
+    <string name="newPhone">请输入新的手机号码</string>
+    <string name="againPhone">请再次输入新的手机号码</string>
+    <string name="type">报警类型</string>
+    <string name="note">备    注:</string>
+
+    <string name="hello">Hello World, AlertDialogActivity!</string>
+    <string name="btn_name">点击弹出AlertDialog</string>
+
+    <string-array name="item">
+        <item>火警</item>
+        <item>第二个选择</item>
+        <item>第三个选择</item>
+        <item>第四个选择</item>
+    </string-array>
+    <string name="loginphone">请输入手机号码</string>
+    <string name="loginpassword">请输入密码</string>
+    <string name="login">登录</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

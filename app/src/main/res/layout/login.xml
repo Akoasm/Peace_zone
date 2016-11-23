@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    >
+
+    <TextView
+        android:id="@+id/logintitle"
+        android:textSize="30dp"
+        android:text="雪亮工程"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/login_user_img"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/login_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/login_user_ip"
+            android:layout_width="200dp"
+            android:hint="@string/loginphone"
+            android:textColorHint="@color/login"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/login_user_img"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/login_port_img"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/login_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/login_user_port"
+            android:layout_width="200dp"
+            android:hint="@string/loginpassword"
+            android:textColorHint="@color/login"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/login_port_img"/>
+    </RelativeLayout>
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_weight="0.3"
+    android:layout_height="0dp">
+    <Button
+        android:id="@+id/login_btn"
+        android:text="@string/login"
+        android:background="@drawable/login_btn"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</LinearLayout>

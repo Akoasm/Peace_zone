@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--home页面图片位置设置-->
+    <style name="home_button">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <!--home页面文字位置设置-->
+    <style name="home_text">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!--通讯录页面文字位置设置-->
+    <style name="addressbook_text">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <!-- 通讯录子页面文字设置-->
+    <style name="address_detail">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+    <style name="address_detail_phone">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#272d9b</item>
+
+    </style>
+
+    <!-- 通讯录页面详情-->
+    <style name="address_detail_button12">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="address_detail_button3">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <!-- 设置页面、视频页面文字设置-->
+
+    <style name="homebutton_item">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <!-- 设置页面修改手机号码-->
+    <style name="changePhone">
+        <item name="android:text">@string/changePhone</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <!-- 设置页面当前手机-->
+   <style name="currentPhone">
+       <item name="android:layout_marginTop">15dp</item>
+       <item name="android:layout_marginLeft">10dp</item>
+       <item name="android:textSize">18dp</item>
+
+   </style>
+
+    <!-- 设置报警子页面文字-->
+    <style name="warning_detail">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+
+
+
+
+</resources>
